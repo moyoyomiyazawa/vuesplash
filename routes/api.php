@@ -47,6 +47,8 @@ Route::post('/photos/{photo}/comments', 'PhotoController@addComment')->name('pho
 
 // TODO: コメント削除
 
+// TODO: コメント編集
+
 // いいね
 Route::put('/photos/{id}/like', 'PhotoController@like')->name('photo.like');
 
