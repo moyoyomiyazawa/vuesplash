@@ -34,6 +34,8 @@ Route::get('/user', function () {
 // 写真投稿
 Route::post('/photos', 'PhotoController@create')->name('photo.create');
 
+// TODO: 写真削除
+
 // 写真一覧
 Route::get('/photos', 'PhotoController@index')->name('photo.index');
 
@@ -43,6 +45,7 @@ Route::get('/photos/{id}', 'PhotoController@show')->name('photo.show');
 // コメント投稿
 Route::post('/photos/{photo}/comments', 'PhotoController@addComment')->name('photo.comment');
 
+// TODO: コメント削除
 
 // いいね
 Route::put('/photos/{id}/like', 'PhotoController@like')->name('photo.like');
