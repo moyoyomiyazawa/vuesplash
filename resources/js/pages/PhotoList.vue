@@ -9,7 +9,7 @@
                 @like="onLikeClick"
             />
         </div>
-        <Pagination :current-page="currentPage" :last-page="lastPage" />
+        <!-- <Pagination :current-page="currentPage" :last-page="lastPage" /> -->
     </div>
 </template>
 
